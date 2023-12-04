@@ -8,14 +8,15 @@ for (let i = 0; i < quantity.length; i++) {
     quantity[i].innerHTML = `0${i + 1}`;
 }
 
-sidebar.append(nav_list);
+let sidebar_nav = nav_list.cloneNode(true)
+sidebar.append(sidebar_nav);
 
 sidebar_btn.onclick = function () {
-    sidebar.style.display = "flex"
+    sidebar.style.left = "0"
 }
 
 close_btn.onclick = function () {
-    sidebar.style.display = "none"
+    sidebar.style.left = "768px"
 }
 
 var swiper = new Swiper('.slaider', {
