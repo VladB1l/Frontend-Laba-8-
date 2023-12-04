@@ -1,0 +1,1 @@
+[GitHub Pages link](https://vladb1l.github.io/Frontend-Laba-8-/)
