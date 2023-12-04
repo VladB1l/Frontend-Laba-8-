@@ -8,6 +8,8 @@ for (let i = 0; i < quantity.length; i++) {
     quantity[i].innerHTML = `0${i + 1}`;
 }
 
+sidebar.append(nav_list);
+
 sidebar_btn.onclick = function () {
     sidebar.style.display = "flex"
 }
